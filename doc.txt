@@ -1,0 +1,19 @@
+INICIANDO A API
+**dotnet new webapi- Inicializa a API em .NET**
+**dotnet watch run- Vai compilar automaticamente sempre que tiver uma atualização**
+
+INSTALANDO O ENTITY
+**dotnet tool install --global dotnet-ef- Instalar entity framework para trabalhar com o DB**
+
+INSTALANDO PACOTES PARA TRABALHAR COM O DB
+**dotnet add package Microsoft.EntityFrameworkCore.Design**
+**dotnet add package Microsoft.EntityFrameworkCore.SqlServer**
+**Pesquise o DB que você for utilizar, para cada um o comando é diferente esses são para o SqlServer**
+
+
+CRIANDO MIGRATIONS
+**dotnet-ef migrations add CriacaoTabelaContato**
+**dotnet-ef database update**
+
+REMOVENDO PACOTES 
+**dotnet remove package <PACKAGE NAME>
